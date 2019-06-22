@@ -7,7 +7,7 @@ set -q XDG_DATA_HOME
 source $OMF_PATH/init.fish
 
 # Environment
-set -gx PATH $HOME/.local/bin $HOME/.fnm $PATH
+set -gx PATH $HOME/bin $HOME/.local/bin $PATH $HOME/.fnm 
 set -gx EDITOR vim
 
 # No greeting

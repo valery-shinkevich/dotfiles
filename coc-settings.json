@@ -1,12 +1,14 @@
 {
   "diagnostic.refreshAfterSave": true,
-  "coc.preferences.formatOnSaveFiletypes": ["elm"],
+  "coc.preferences.formatOnSaveFiletypes": [],
   "coc.preferences.snippets.enable": false,
   "suggest.minTriggerInputLength": 3,
   "suggest.maxCompleteItemCount": 5,
   "diagnostic.refreshOnInsertMode": false,
   "languageserver": {
     "elmLS": {
+      "disableCompletion": true,
+      "disableDiagnostics": true,
       "command": "elm-language-server",
       "args": ["--stdio"],
       "filetypes": ["elm"],
